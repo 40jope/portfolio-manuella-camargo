@@ -42,7 +42,7 @@ Página de exposição do portfolio da especialista em marketing estratégico e 
 
 ## Demonstração
 
-[Url da Página](https://portfolio-manuella-camargo.vercel.app){target="_blank"}
+[Url da Página](https://portfolio-manuella-camargo.vercel.app){:target="_blank"}
 
 &nbsp;
 
