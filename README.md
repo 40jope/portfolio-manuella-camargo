@@ -1,6 +1,7 @@
 # Portfolio - Manuella Camargo
 
 ![Capa portfólio Manuella Camargo](./img/capa.png)
+
 Página de exposição do portfolio da especialista em marketing estratégico e inovação [Manuella Camargo](https://www.instagram.com/manuucamargoo/)
 
 &nbsp;
@@ -24,7 +25,7 @@ Página de exposição do portfolio da especialista em marketing estratégico e 
 
 ## Layout
 
-### Destok
+### Desktop
 ![capa da página](./img/screenshots/print-capa.png)
 ![sessão 'cases'](./img/screenshots/print-case.png)
 
@@ -41,7 +42,7 @@ Página de exposição do portfolio da especialista em marketing estratégico e 
 
 ## Demonstração
 
-[Url da Página](*url*)
+[Url da Página](https://portfolio-manuella-camargo.vercel.app)
 
 &nbsp;
 
