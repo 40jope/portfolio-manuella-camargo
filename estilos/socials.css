@@ -1,0 +1,58 @@
+.socials__container {
+    margin-bottom: 5%
+}
+
+.socials__container-feed {
+    display: flex;
+    gap: 4rem;
+    padding: 0 6%;
+}
+
+.feed-manu {
+    min-width: 370px;
+}
+
+.socials__linkedin__img {
+    width: 60%;
+    padding: 0 6%;
+}
+
+.socials__contato {
+    padding: 0 6% 6% 6%;
+}
+
+.titulo__contato {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.paragrafo__contato {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .socials__container-feed {
+        flex-wrap: wrap;
+    }
+
+    .paragrafo__contato, .titulo__contato {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .socials__container-feed {
+        justify-content: center;
+    }
+
+    .feed-manu {
+        min-width: 326px;
+    }
+
+    .socials__linkedin__img {
+        width: 90%;
+    }
+}

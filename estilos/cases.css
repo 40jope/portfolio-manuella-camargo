@@ -1,0 +1,168 @@
+.cabecalho__container__cases {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6% 4rem 6%;
+}
+
+.banner_das-gurias {
+    width: 45%;
+}
+
+.conteudo__cases {
+    text-align: center;
+}
+
+.grid__das-gurias {
+    display: flex;
+    justify-content: center;
+}
+
+.grid__das-gurias img {
+    width: 20%;
+}
+
+.paragrafo__sessao {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 2rem 9% 5rem 9%;
+}
+
+.conteudo__cases-feed {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.banner_oceano {
+    display: grid;
+    grid-template-areas:
+        "social posicionamento"
+        "dna oceano";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: 50%;
+}
+
+.banner_oceano img {
+    width: 100%;
+}
+
+.banner_oceano:nth-child(1) {
+    grid-area: social;
+}
+
+.banner_oceano:nth-child(2) {
+    grid-area: posicionamento;
+}
+
+.banner_oceano:nth-child(3) {
+    grid-area: dna;
+}
+
+.banner_oceano:nth-child(4) {
+    grid-area: oceano;
+}
+
+.conteudo__cases-grid {
+    display: grid;
+    grid-template-areas:
+        "telao credencial folder equipe";
+    width: 80%;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.conteudo__cases-grid img {
+    width: 100%;
+}
+
+.conteudo__cases-grid:nth-child(1) {
+    grid-area: telao;
+}
+
+.conteudo__cases-grid:nth-child(2) {
+    grid-area: credencial;
+}
+
+.conteudo__cases-grid:nth-child(3) {
+    grid-area: folder;
+}
+
+.conteudo__cases-grid:nth-child(4) {
+    grid-area: equipe;
+}
+
+.ai4__feed {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.ai4__feed__tl {
+    width: 30%;
+}
+
+.feed__tl-titulo {
+    font-size: 32px;
+    text-align: left;
+    margin: 1rem;
+}
+
+.feed__tl-img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .cabecalho__container__cases {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner_das-gurias, .banner_oceano {
+        align-self: center;
+        width: 100%;
+    }
+
+    .grid__das-gurias img {
+        width: 25%;
+    }
+
+    .conteudo__cases-grid {
+        gap: 0.5rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .grid__das-gurias {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .grid__das-gurias img {
+        width: 100%;
+    }
+
+    .paragrafo__sessao {
+        margin: 2rem 5% 3rem 5%
+    }
+
+    .conteudo__cases-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .ai4__feed {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .ai4__feed__tl {
+        width: 100%;
+    }
+}
